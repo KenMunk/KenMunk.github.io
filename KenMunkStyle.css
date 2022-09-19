@@ -18,6 +18,10 @@ H3 {
 	text-transform: capitalize;
 }
 
+p {
+	color: Black;
+}
+
 .pagespace {
 	display: flex;
 	justify-content: center;
@@ -39,5 +43,10 @@ H3 {
 
 .pagecolumn2 {
 	order: 3;
+}
+
+.logoBlock {
+	order: -1;
+	flex: none;
 }
 
