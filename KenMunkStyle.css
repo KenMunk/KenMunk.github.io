@@ -1,5 +1,42 @@
+
+html {
+	font-family: arial;
+}
+
 H1 {
 	color: Blue;
-	font-family: arial;
 	text-transform: uppercase;
+}
+
+H2 {
+	color: DimGrey;
+	text-transform: capitalize;
+}
+
+H3 {
+	color: Blue;
+	text-transform: capitalize;
+}
+
+.pagespace {
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	
+}
+
+.pagecolumn1 {
+	order: 1;
+}
+
+.pagecontent {
+	order: 2;
+	
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.pagecolumn2 {
+	order: 3;
 }
