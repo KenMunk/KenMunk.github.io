@@ -1,21 +1,28 @@
 
 html {
 	font-family: arial;
+	order: 1;
 }
 
 H1 {
 	color: Blue;
 	text-transform: uppercase;
+	font-size: 48px;
+	font-weight: 900;
 }
 
 H2 {
 	color: DimGrey;
 	text-transform: capitalize;
+	font-size: 24px;
+	font-weight: 200;
 }
 
 H3 {
 	color: Blue;
 	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: bold;
 }
 
 p {
@@ -35,10 +42,14 @@ body {
 
 .pagecontent {
 	order: 2;
+	
 	width: 80%;
+	
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	
+	background-image: url("image_assets/ContentBackground.svg");
 }
 
 .pagecolumn2 {
@@ -49,15 +60,64 @@ body {
 	order: -1;
 	flex: none;
 	width: 100%;
+	height: 100px;
 	display: flex;
+	
 	justify-content: flex-start;
+	align-items: center;
+	
 	flex-direction: row;
 	flex-wrap: nowrap;
+	
+	background-image: url("image_assets/Header_Background.svg");
 }
 
 .logo {
 	order: -1;
 	flex: none;
+}
+
+
+.contentArticle {
+	order: 1;
+	
+	width: 96%;
+	
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding-right: 2%;
+	padding-left: 2%;
+	align-content: flex-start;
+	
+}
+
+.contentTitle {
+	order: -1;
+	
+	width: 100%;
+	height: 32px;
+	
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	display: flex;
+	
+	background-color: lightblue;
+	
+}
+
+.contentMain {
+	width: 100%;
+}
+
+.contentTileTable {
+	
+	width: 90%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	
 }
 
 
