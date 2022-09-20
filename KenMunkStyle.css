@@ -43,13 +43,14 @@ body {
 .pagecontent {
 	order: 2;
 	
-	width: 80%;
+	width: 960px;
+	flex: none;
 	
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 	
-	background-image: url("image_assets/ContentBackground.svg");
+	/*background-image: url("image_assets/ContentBackground.svg");*/
 }
 
 .pagecolumn2 {
@@ -69,7 +70,7 @@ body {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	
-	background-image: url("image_assets/Header_Background.svg");
+	/*background-image: url("image_assets/Header_Background.svg");*/
 }
 
 .logo {
@@ -103,7 +104,7 @@ body {
 	flex-direction: row;
 	display: flex;
 	
-	background-color: lightblue;
+	/*background-color: lightblue;*/
 	
 }
 
